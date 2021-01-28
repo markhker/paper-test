@@ -1,0 +1,21 @@
+{
+  "name": "paperInsurance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Karim <markhker@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "json-server --watch db.json --port 4006",
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-react-refresh": "^2.4.0",
+    "antd": "^4.11.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "snowpack": "^3.0.0"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "coverOptions": [
+    {
+      "label": "Full coverage",
+      "value": "full"
+    },
+    {
+      "label": "Only theft and fire",
+      "value": "minimum"
+    }
+  ],
+  "constructionTypes": [
+    {
+      "label": "Concrete",
+      "value": "concrete"
+    },
+    {
+      "label": "Concrete fire resistant",
+      "value": "fireConcrete"
+    },
+    {
+      "label": "Wood",
+      "value": "wood"
+    },
+    {
+      "label": "Masonry",
+      "value": "masonry"
+    },
+    {
+      "label": "Other",
+      "value": "other"
+    }
+  ],
+  "roofTypes": [
+    {
+      "label": "Hip",
+      "value": "hip"
+    },
+    {
+      "label": "Gable",
+      "value": "gable"
+    },
+    {
+      "label": "Flat",
+      "value": "flat"
+    },
+    {
+      "label": "Mixed",
+      "value": "mixed"
+    }
+  ],
+  "roofConstructionTypes": [
+    {
+      "label": "Clay tile",
+      "value": "clay"
+    },
+    {
+      "label": "Asphalt shingles",
+      "value": "asphalt"
+    },
+    {
+      "label": "Galvanized sheeting",
+      "value": "galvanized"
+    }
+  ],
+  "calculation": [
+    {
+      "constructionTypesPrices": {
+        "concrete": 500,
+        "fireConcrete": 300,
+        "masonry": 700,
+        "wood": 1000
+      },
+      "roofTypesModifiers": {
+        "gable": 0.1,
+        "hip": 0.3,
+        "mixed": 0.5,
+        "flat": 0.9
+      },
+      "roofConstructionTypesPrices": {
+        "clay": 100,
+        "asphalt": 300,
+        "galvanized": 500
+      },
+      "monitoredSystemDiscount": 100
+    }
+  ]
+}
