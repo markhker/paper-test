@@ -10,6 +10,7 @@ npm-debug.*
 *.orig.*
 web-build/
 web-report/
+.types
 
 # macOS
 .DS_Store
@@ -20,3 +21,6 @@ web-report/
 # build
 build/
 dist/
+
+#test
+coverage/**/*

@@ -67,7 +67,6 @@ const App = () => {
   }, [location])
 
    useEffect(() => {
-    // Set initial values
     if (coverOptions.value?.length > 0) {
       setGlobalState({ ...globalState, coverage: coverOptions.value[0].value })
     }

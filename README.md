@@ -15,3 +15,6 @@
 
 6. You can build the project with:
 `yarn run build`
+
+7. To run tests
+`yarn test`
